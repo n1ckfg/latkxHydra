@@ -14,11 +14,11 @@ public class SixenseShowHide : MonoBehaviour {
 	}
 
 	void Update() {
-		 if (sixCtl.button3Down) {
+		 if (sixCtl.button2Down) {
 			for (int i = 0; i < target.Length; i++) {
 				target[i].SetActive(true);
 			}
-		} else if (sixCtl.button3Up) {
+		} else if (sixCtl.button2Up) {
 			for (int i = 0; i < target.Length; i++) {
 				target[i].SetActive (false);
 			}
